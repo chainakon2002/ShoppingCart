@@ -1,0 +1,75 @@
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.nav-center a:hover {
+    transition: 0.15s;
+    color: white;
+    border-radius: 15px;
+    background-color: #0088f7;
+}
+
+.nav-right:hover {
+    cursor: pointer;
+}
+
+.nav-right a > label:hover {
+    transition: 0.15s;
+    color: white;
+    border-radius: 15px;
+    background-color: #0088f7;
+}
+
+.nav-right a > i:hover {
+    color: #0088f7;
+}
+
+.card-top a > i:hover, .card-bottom a > i:hover {
+    color: #0088f7;
+    border-color: #0088f7;
+}
+
+/* .cart-cricle:hover::before {
+    background-color: #00DBB6;
+} */
+
+select:focus {
+    outline: 1px solid #0088f7;
+}
+
+input[type=text]:focus {
+    outline: 1px solid #0088f7;
+}
+
+.promo button:hover {
+    color: #0088f7;
+    border: 2px solid #0088f7;
+    cursor: pointer;
+}
+
+.c-main-bottom button:hover {
+    color: rgb(219, 219, 219);
+    background-color: #0088f7;
+    cursor: pointer;
+}
+
+.nav-button.responsive > a:hover {
+    background-color: #0088f7;
+    transition: 0.15s;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px rgb(211, 211, 211);
+}
+
+.login:hover {
+    color: #0088f7;
+    border: 2px solid #0088f7;
+    background-color: none;
+}
+
+.signup:hover {
+    color: rgb(219, 219, 219);
+    background-color: #0088f7;
+    box-shadow: 2px 5px 10px rgb(211, 211, 211);
+}
